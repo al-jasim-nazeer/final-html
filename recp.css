@@ -1,0 +1,248 @@
+/* General Page Styles */
+body {
+  background-color: #f4f9ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body.front-page {
+  background: url('teeth.png') no-repeat center center fixed; 
+  background-size: 50%;
+}
+
+/* Navbar Customization */
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Container Styling */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2, h3 {
+  color: #2c44b3;
+}
+
+/* Form Controls */
+form .form-control,
+form .form-select {
+  border-radius: 8px;
+}
+
+form label {
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #084cdf;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: white;
+}
+
+/* Table Styles */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+table td,
+table th {
+  text-align: center;
+  vertical-align: middle;
+}
+.overlay{
+    padding: 2rem;
+}
+.container mt-5 text-center{
+    background-color: aquamarine;
+}
+/* Services Section */
+.service-section {
+  background-color: #e6f2ff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.service-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+/* About Us Section */
+.about-section {
+  background-color: #fdfdfd;
+  border-left: 5px solid #0d6efd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+/* Gallery Carousel */
+#galleryCarousel img {
+  height: 400px;
+  width: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Login Page Background ===== */
+.login-page {
+  background: linear-gradient(rgba(0, 123, 255, 0.6), rgba(0, 123, 255, 0.6)),
+              url('https://images.unsplash.com/photo-1588776814546-ec7e556d9f1e') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Login Box ===== */
+.login-box {
+  background-color: white;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h3 {
+  font-weight: bold;
+}
+
+.login-box .form-control {
+  border-radius: 8px;
+}
+
+.login-box button {
+  border-radius: 8px;
+}
+
+/* ===== Navbar Styling ===== */
+.navbar {
+  font-weight: 500;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+
+/* ===== Dashboard Welcome Section ===== */
+.container h1 {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.container p.lead {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* ===== Responsive Fixes ===== */
+@media (max-width: 576px) {
+  .login-box {
+    padding: 2rem 1rem;
+  }
+}
+/* ===== Welcome Box Styling ===== */
+.welcome-box {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-box h1 {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.welcome-box p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* ===== Action Cards ===== */
+.action-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.action-card .icon {
+  font-size: 2rem;
+}
+/* Navigation cards styling */
+.nav-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nav-card .icon {
+  font-size: 2.5rem;
+}
+
